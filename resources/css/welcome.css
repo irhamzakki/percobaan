@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fcfb;
+}
+
+/* Navbar */
+.navbar {
+  background: #009879;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(to bottom right, #009879, #0bb18c);
+  color: #fff;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+.hero .btn-light {
+  margin-top: 30px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+/* About Section */
+.about-section {
+  padding: 100px 20px;
+  background: #f7fdfc;
+}
+.about-section h2 {
+  color: #009879;
+  font-weight: 700;
+}
+.about-section img {
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Features Section */
+.features {
+  padding: 100px 20px;
+  background: #e6f4f1;
+}
+.features h2 {
+  color: #009879;
+  font-weight: 700;
+}
+.feature-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  background: #fff;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Footer */
+footer {
+  background: #007f66;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Fade animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
